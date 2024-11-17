@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador en Diccionario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="divPrincipal">
+        <div id="divBusqueda">
+            <h1>Buscador de Diccionario</h1>
+            <input type="text" id="inputBusqueda" placeholder="Escribe una palabra...">
+            <button id="btnBuscar" onclick="">Buscar</button>
+            <button id="btnReestablecer" onclick="reestablecerBusqueda()">Reestablecer</button>
+        </div>
+        <div id="divResultados">
+            <h3>Resultados:</h3>
+            <p id="contador">Se encontraron 0 coincidencias.</p>
+        </div>
+        <div id="tablaDiccionarioContainer">
+            <table id="tablaDiccionario">
+                <thead>
+                    <tr>
+                        <th>Palabra</th>
+                        <th>Definición</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Manzana</td>
+                        <td>Fruta roja, verde o amarilla, dulce y crujiente.</td>
+                    </tr>
+                    <tr>
+                        <td>Casa</td>
+                        <td>Edificio destinado para habitar.</td>
+                    </tr>
+                    <tr>
+                        <td>Sol</td>
+                        <td>Estrella luminosa en el centro del sistema solar.</td>
+                    </tr>
+                    <tr>
+                        <td>Luna</td>
+                        <td>Satélite natural de la Tierra.</td>
+                    </tr>
+                    <tr>
+                        <td>Agua</td>
+                        <td>Líquido esencial para la vida, incoloro e insípido.</td>
+                    </tr>
+                    <tr>
+                        <td>Árbol</td>
+                        <td>Planta de tallo leñoso que generalmente tiene ramas.</td>
+                    </tr>
+                    <tr>
+                        <td>Perro</td>
+                        <td>Animal mamífero, doméstico, de la familia Canidae.</td>
+                    </tr>
+                    <tr>
+                        <td>Gato</td>
+                        <td>Animal mamífero, domesticado, de la familia Felidae.</td>
+                    </tr>
+                    <tr>
+                        <td>Libro</td>
+                        <td>Conjunto de hojas escritas o impresas que se unen por un lado.</td>
+                    </tr>
+                    <tr>
+                        <td>Montaña</td>
+                        <td>Elevación natural del terreno, de gran altura.</td>
+                    </tr>
+                    <tr>
+                        <td>Mar</td>
+                        <td>Gran masa de agua salada que cubre gran parte de la superficie terrestre.</td>
+                    </tr>
+                    <tr>
+                        <td>Computadora</td>
+                        <td>Máquina electrónica que procesa datos.</td>
+                    </tr>
+                    <tr>
+                        <td>Viento</td>
+                        <td>Movimiento de las masas de aire en la atmósfera.</td>
+                    </tr>
+                    <tr>
+                        <td>Cielo</td>
+                        <td>Parte de la atmósfera que está sobre la Tierra.</td>
+                    </tr>
+                    <tr>
+                        <td>Espejo</td>
+                        <td>Superficie que refleja la luz y forma imágenes.</td>
+                    </tr>
+                    <tr>
+                        <td>Estrella</td>
+                        <td>Cuerpo celeste que emite luz propia, como el Sol.</td>
+                    </tr>
+                    <tr>
+                        <td>Chocolate</td>
+                        <td>Alimento dulce hecho a base de cacao.</td>
+                    </tr>
+                    <tr>
+                        <td>Zapato</td>
+                        <td>Calzado que cubre el pie y parte del tobillo.</td>
+                    </tr>
+                    <tr>
+                        <td>Avión</td>
+                        <td>Vehículo aéreo que se desplaza por el aire.</td>
+                    </tr>
+                    <tr>
+                        <td>Fruta</td>
+                        <td>Alimento natural que se obtiene de las plantas, generalmente dulce.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="busqueda.js"></script>
+</body>
+</html>
